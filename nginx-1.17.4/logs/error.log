@@ -1,0 +1,317 @@
+2019/10/10 23:25:56 [emerg] 2560#6028: CreateFile() "C:\Users\Ô\Downloads\nginx-1.17.4/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2019/10/10 23:27:31 [emerg] 5752#5988: CreateFile() "C:\Users\Ô\Downloads\nginx-1.17.4/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2019/10/10 23:27:32 [emerg] 3916#5960: CreateFile() "C:\Users\Ô\Downloads\nginx-1.17.4/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2019/10/10 23:27:36 [emerg] 4860#6040: CreateFile() "C:\Users\Ô\Downloads\nginx-1.17.4/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2019/10/10 23:34:17 [error] 3056#5552: *1 CreateFile() "D:\nginx-1.17.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/10/10 23:42:25 [notice] 4332#3948: signal process started
+2019/10/10 23:42:33 [notice] 6304#6220: signal process started
+2019/10/10 23:42:39 [notice] 5024#6264: signal process started
+2019/10/10 23:42:39 [error] 5024#6264: CreateFile() "D:\nginx-1.17.4/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2019/10/10 23:51:10 [notice] 6988#6768: signal process started
+2019/10/10 23:51:10 [error] 6988#6768: OpenEvent("Global\ngx_stop_6268") failed (5: Access is denied)
+2019/10/11 01:21:14 [notice] 4988#5692: signal process started
+2019/10/11 01:21:14 [error] 4988#5692: OpenEvent("Global\ngx_reload_6828") failed (2: The system cannot find the file specified)
+2019/10/11 01:21:26 [notice] 6528#7708: signal process started
+2019/10/11 01:21:26 [error] 6528#7708: OpenEvent("Global\ngx_reload_6828") failed (2: The system cannot find the file specified)
+2019/10/11 01:24:18 [notice] 7456#6384: signal process started
+2019/10/11 01:30:03 [notice] 5936#812: signal process started
+2019/10/11 01:31:33 [error] 7180#5384: *1 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/11 01:31:35 [error] 7180#5384: *1 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/11 01:31:36 [error] 7180#5384: *1 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/11 01:31:36 [error] 7180#5384: *1 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/11 01:31:36 [error] 7180#5384: *1 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/11 01:31:36 [error] 7180#5384: *1 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/11 01:31:37 [error] 7180#5384: *1 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:21:51 [notice] 3520#3508: signal process started
+2019/10/12 12:28:09 [error] 4184#3796: *1 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:28:09 [error] 4184#3796: *1 CreateFile() "E:/sites/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/10/12 12:29:02 [error] 4184#3796: *1 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:29:58 [error] 4184#3796: *5 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 203.112.73.220, server: localhost, request: "GET / HTTP/1.1", host: "188.233.94.72:80"
+2019/10/12 12:30:45 [notice] 3036#5092: signal process started
+2019/10/12 12:30:53 [error] 4504#3800: *6 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:30:54 [error] 4504#3800: *6 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:30:54 [error] 4504#3800: *6 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:30:54 [error] 4504#3800: *6 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:31:14 [notice] 4732#4652: signal process started
+2019/10/12 12:33:36 [error] 3516#956: *1 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:33:55 [error] 3516#956: *1 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:33:55 [error] 3516#956: *1 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:33:56 [error] 3516#956: *1 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:36:24 [error] 3516#956: *5 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:37:34 [error] 3516#956: *7 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:37:35 [error] 3516#956: *7 "E:/sites/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/10/12 12:38:35 [emerg] 460#4088: unexpected "}" in D:\nginx-1.17.4/conf/nginx.conf:113
+2019/10/12 12:40:01 [notice] 4776#3992: signal process started
+2019/10/12 12:41:04 [error] 3600#3780: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected end of file in D:\sites\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/12 13:07:14 [error] 3600#3780: *9 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in D:\sites\index.php on line 6" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/12 13:07:23 [error] 3600#3780: *9 FastCGI sent in stderr: "PHP Notice:  Undefined variable: serverName in D:\sites\index.php on line 4
+PHP Notice:  Undefined variable: dbName in D:\sites\index.php on line 4
+PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server= ...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/12 14:28:42 [error] 3600#3780: *14 FastCGI sent in stderr: "PHP Notice:  Undefined variable: serverName in D:\sites\index.php on line 4
+PHP Notice:  Undefined variable: dbName in D:\sites\index.php on line 4
+PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server= ...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/12 14:28:43 [error] 3600#3780: *14 FastCGI sent in stderr: "PHP Notice:  Undefined variable: serverName in D:\sites\index.php on line 4
+PHP Notice:  Undefined variable: dbName in D:\sites\index.php on line 4
+PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server= ...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/12 14:28:54 [error] 3600#3780: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/12 14:29:24 [error] 3600#3780: *21 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 23.225.205.31, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72", referrer: "http://188.233.94.72/"
+2019/10/12 14:29:25 [error] 3600#3780: *23 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 23.225.205.31, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72", referrer: "http://188.233.94.72/"
+2019/10/12 14:29:26 [error] 3600#3780: *25 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 23.225.205.31, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72", referrer: "http://188.233.94.72/"
+2019/10/12 15:02:32 [error] 3600#3780: *27 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 5.160.110.131, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72:80"
+2019/10/12 15:05:27 [error] 3600#3780: *30 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 46.252.119.200, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72"
+2019/10/12 15:05:28 [error] 3600#3780: *32 "D:/sites/HNAP1/index.html" is not found (3: The system cannot find the path specified), client: 46.252.119.200, server: localhost, request: "GET /HNAP1/ HTTP/1.1", host: "188.233.94.72", referrer: "http://188.233.94.72/"
+2019/10/12 15:58:34 [error] 3600#3780: *33 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 67.206.216.170, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72:80"
+2019/10/12 16:10:10 [error] 3600#3780: *35 CreateFile() "D:/sites/getip" failed (2: The system cannot find the file specified), client: 157.230.216.203, server: localhost, request: "GET /getip HTTP/1.1", host: "XXX"
+2019/10/12 16:48:49 [error] 3600#3780: *37 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 221.11.51.19, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72"
+2019/10/12 16:48:50 [error] 3600#3780: *39 CreateFile() "D:/sites/get_webdavInfo.asp" failed (2: The system cannot find the file specified), client: 124.225.44.169, server: localhost, request: "GET /get_webdavInfo.asp HTTP/1.1", host: "188.233.94.72", referrer: "http://188.233.94.72:80/"
+2019/10/12 16:53:39 [error] 3600#3780: *40 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 83.87.46.130, server: localhost, request: "HEAD / HTTP/1.0", upstream: "fastcgi://127.0.0.1:9123"
+2019/10/12 17:10:40 [error] 3600#3780: *42 CreateFile() "D:/sites/photo/favicon.ico" failed (3: The system cannot find the path specified), client: 83.87.46.130, server: localhost, request: "GET /photo/favicon.ico HTTP/1.1", host: "188.233.94.72"
+2019/10/12 17:34:02 [error] 3600#3780: *44 CreateFile() "D:/sites/robots.txt" failed (2: The system cannot find the file specified), client: 77.247.110.222, server: localhost, request: "HEAD /robots.txt HTTP/1.0"
+2019/10/12 17:46:55 [error] 3600#3780: *45 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 191.242.214.239, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72:80"
+2019/10/12 17:53:18 [error] 3600#3780: *47 CreateFile() "D:/sites/robots.txt" failed (2: The system cannot find the file specified), client: 77.247.110.223, server: localhost, request: "HEAD /robots.txt HTTP/1.0"
+2019/10/12 18:07:10 [error] 3600#3780: *49 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 171.226.232.160, server: localhost, request: "GET / HTTP/1.0", upstream: "fastcgi://127.0.0.1:9123"
+2019/10/12 18:40:54 [error] 3600#3780: *52 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 49.235.16.140, server: localhost, request: "GET /TP/public/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72"
+2019/10/12 18:40:56 [error] 3600#3780: *54 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 49.235.16.140, server: localhost, request: "GET /TP/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72"
+2019/10/12 18:40:57 [error] 3600#3780: *56 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 49.235.16.140, server: localhost, request: "GET /thinkphp/html/public/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72"
+2019/10/12 18:40:59 [error] 3600#3780: *58 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 49.235.16.140, server: localhost, request: "GET /html/public/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72"
+2019/10/12 18:41:01 [error] 3600#3780: *60 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 49.235.16.140, server: localhost, request: "GET /public/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72"
+2019/10/12 18:41:02 [error] 3600#3780: *62 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 49.235.16.140, server: localhost, request: "GET /TP/html/public/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72"
+2019/10/12 18:41:04 [error] 3600#3780: *64 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 49.235.16.140, server: localhost, request: "GET /elrekt.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72"
+2019/10/12 18:41:06 [error] 3600#3780: *66 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 49.235.16.140, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72"
+2019/10/12 18:41:07 [error] 3600#3780: *68 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 49.235.16.140, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72:80"
+2019/10/12 19:42:42 [error] 3600#3780: *71 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 183.129.160.229, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72:80"
+2019/10/12 21:14:19 [error] 3600#3780: *73 CreateFile() "D:/sites/stalker_portal/api" failed (3: The system cannot find the path specified), client: 78.85.140.32, server: localhost, request: "HEAD /stalker_portal/api HTTP/1.1", host: "188.233.94.72"
+2019/10/12 23:58:40 [error] 3600#3780: *75 CreateFile() "D:/sites/robots.txt" failed (2: The system cannot find the file specified), client: 77.247.110.223, server: localhost, request: "HEAD /robots.txt HTTP/1.0"
+2019/10/13 00:10:35 [error] 3600#3780: *78 CreateFile() "D:/sites/robots.txt" failed (2: The system cannot find the file specified), client: 77.247.110.222, server: localhost, request: "HEAD /robots.txt HTTP/1.0"
+2019/10/13 01:06:28 [error] 3600#3780: *79 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 109.94.113.189, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "188.233.94.72:80"
+2019/10/13 12:39:14 [error] 4820#1360: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 12:39:14 [error] 4820#1360: *1 CreateFile() "D:/sites/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/10/13 12:41:02 [error] 4820#1360: *5 FastCGI sent in stderr: "PHP Notice:  Undefined variable: serverName in D:\sites\index.php on line 4
+PHP Notice:  Undefined variable: dbName in D:\sites\index.php on line 4
+PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server= ...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 12:47:50 [error] 4820#1360: *9 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '&', expecting end of file in D:\sites\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 12:48:05 [error] 4820#1360: *9 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 12:56:19 [error] 4820#1360: *19 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 12:59:42 [error] 4820#1360: *23 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 12:59:43 [error] 4820#1360: *23 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 12:59:43 [error] 4820#1360: *23 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 12:59:43 [error] 4820#1360: *23 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:06:37 [error] 5412#5208: *30 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:06:38 [error] 5412#5208: *30 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:06:50 [notice] 4236#5912: signal process started
+2019/10/13 13:06:50 [error] 4236#5912: OpenEvent("Global\ngx_reload_6104") failed (2: The system cannot find the file specified)
+2019/10/13 13:08:39 [error] 5160#2968: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:08:51 [error] 5160#2968: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:10:52 [error] 5160#2968: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:11:39 [error] 5160#2968: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:11:40 [error] 5160#2968: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:11:40 [error] 5160#2968: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:11:40 [error] 5160#2968: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:11:40 [error] 5160#2968: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:15:25 [error] 5160#2968: *17 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:15:25 [error] 5160#2968: *17 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:15:25 [error] 5160#2968: *17 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:22:49 [error] 5160#2968: *23 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:22:50 [error] 5160#2968: *23 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:22:51 [error] 5160#2968: *23 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:23:12 [notice] 4868#3912: signal process started
+2019/10/13 13:23:23 [error] 4316#3908: *29 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:23:23 [error] 4316#3908: *29 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:23:24 [error] 4316#3908: *29 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:4
+Stack trace:
+#0 D:\sites\index.php(4): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:23:49 [error] 4316#3908: *35 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in D:\sites\index.php on line 5" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:23:57 [error] 4316#3908: *35 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:25:22 [error] 4316#3908: *40 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function php_info() in D:\sites\index.php:4
+Stack trace:
+#0 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:25:23 [error] 4316#3908: *40 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function php_info() in D:\sites\index.php:4
+Stack trace:
+#0 {main}
+  thrown in D:\sites\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:25:37 [error] 4316#3908: *45 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:37:30 [notice] 3128#4048: signal process started
+2019/10/13 13:37:33 [error] 5516#5512: *49 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:41:39 [notice] 956#3864: signal process started
+2019/10/13 13:41:42 [error] 5132#6068: *53 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:43:26 [error] 5132#6068: *57 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 13:51:14 [error] 5132#6068: *61 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 14:00:16 [notice] 5376#4732: signal process started
+2019/10/13 14:00:24 [error] 3692#1324: *65 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 14:02:12 [error] 3692#1324: *69 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 14:02:18 [notice] 5228#3920: signal process started
+2019/10/13 14:02:26 [error] 4324#3780: *73 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 14:10:02 [error] 4324#3780: *77 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 14:10:08 [notice] 5228#1324: signal process started
+2019/10/13 14:10:09 [error] 4324#3780: *78 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 14:13:39 [error] 5116#3360: *82 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 14:19:04 [error] 5116#3360: *86 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 14:19:09 [error] 5116#3360: *86 FastCGI sent in stderr: "PHP Fatal error:  Uncaught PDOException: could not find driver in D:\sites\index.php:5
+Stack trace:
+#0 D:\sites\index.php(5): PDO->__construct('sqlsrv:server=F...')
+#1 {main}
+  thrown in D:\sites\index.php on line 5" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2019/10/13 14:19:33 [notice] 1872#4668: signal process started
