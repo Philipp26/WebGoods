@@ -1,28 +1,43 @@
 <?php
-$serverName = 'F\SQLEXPRESS';
-$dbName = 'AdventureWorksDW2012';
+$config = include 'config.php';
 
 try {
-    $conn = new PDO("sqlsrv:server=$serverName;Database=$dbName");	
+    $conn = new PDO("sqlsrv:server={$config['serverName']};Database={$config['dbName']}");	
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch(PDOException $e) {
     die("Error connecting to SQL Server".$e->getMessage());
 
 }
-if (isset($_POST['name'])) $name = $_POST['name'];
-else $name = "(Не введено)";
+
 echo <<<_END
 <html>
 <head>
-<title>Form Test</title>
+<title>Web-имущество</title>
 </head>
+<style>
+   body { 
+    margin: 25; /* Убираем отступы */
+   }
+   .parent {
+    margin: 20%; /* Отступы вокруг элемента */
+    background: #fd0; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+   } 
+   .child {
+    border: 3px solid #666; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    margin: 10px; /* Отступы вокруг */
+   }
+  </style>
 <body>
-Вас зовут: $name<br>
-<form method="post" action="index.php">
-Как Вас зовут?
-<input type="text" name="name">
-<input type="submit">
-</form>
+<p>
+<input type="button" value="Список полей для согласования" class="homebutton" id="btnHome" 
+onClick="document.location.href='/ListToAvalableFields.php'" />
+</p>
+<p>
+<input type="button" value="Инструкция по продукту" class="homebutton" id="btnHome" 
+onClick="document.location.href='/Instructions.php'" />
+</p>
 </body>
 </html>
 _END;
