@@ -1,5 +1,5 @@
 <?php
 return array(
-'serverName' => 'F\SQLEXPRESS',
-'dbName' => 'AdventureWorksDW2012',
+'serverName' => 'FRONTDB1',
+'dbName' => 'IsFrontOffice',
 );
