@@ -9,20 +9,31 @@ try {
     die("Error connecting to SQL Server".$e->getMessage());
 }
 
-$STH = $conn->prepare("select top 10 * from isfrontoffice.dbo.inspolicy where [id] = ?");
-$id = "F5FD2D34-5D49-4155-9FA2-D8D551CEA4FB";
+$id = "A302B645-9503-4511-9605-0317F21133CB";
+$namespace = "http://tempuri.org/policy.xsd"; 
 
-$STH->bindParam(1, $id);
+$STH = $conn->prepare("select top 10 * from isfrontoffice.dbo.inspolicy where [id] = ?");
+$STH->bindParam(1, $id); //bind parameters with PDO Object
 $STH->execute();
-$STH->setFetchMode(PDO::FETCH_OBJ);
+$STH->setFetchMode(PDO::FETCH_OBJ); //Setup mode to get object
 
 $xmlPolicy = null; 
 
 while($row = $STH->fetch()){
 	$xmlPolicy = simplexml_load_string($row->policy) or die("Error: Cannot create object");
 }
-
 //print_r($xmlPolicy);
+
+
+$STH = $conn->prepare(
+"select top 10 [policy].value('declare default element namespace 'http://tempuri.org/policy.xsd'; (/Policy/PolicyInfo/ID)[1]', 'varchar(40)') from isfrontoffice.dbo.inspolicy where [id] = ?");
+
+$STH->bindParam(1, $namespace);
+$STH->bindParam(2, $id);
+$STH->execute();
+$STH->setFetchMode(PDO::FETCH_OBJ); 
+
+$conn = null;
 
 echo <<<_END
 <html>
@@ -57,7 +68,7 @@ onClick="document.location.href='/Instructions.php'" />
 </html>
 _END;
 
-$conn = null;
+
 
 ?>
 

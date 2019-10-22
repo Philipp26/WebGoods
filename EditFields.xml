@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section>
+	<base_info name = 'Базовые сведения о договоре'>
+		<IssueDate name = 'Дата заключения'>1</IssueDate>
+		<ApplicationDate name = 'Дата заявления'>1</ApplicationDate>
+		<EffectiveDate name = 'Дата начала'>1</EffectiveDate>
+		<ExpirationDate name = 'Дата окончания'>1</ExpirationDate>
+		<PolicyStatus name = 'Статус договора'>0</PolicyStatus>
+		<CommentsName name = 'Комментарии'> 0 </CommentsName>
+		<Сovering name = 'Покрытие Flexa'> 1 </Сovering>
+		<Franshiza name = 'Безусловная франшиза'>1</Franshiza>
+	</base_info>
+</section>
