@@ -1,31 +1,28 @@
 <?php
 $config = include 'config.php';
 
+//Connection to DataBase
 try {
     $conn = new PDO("sqlsrv:server={$config['serverName']};Database={$config['dbName']}");	
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch(PDOException $e) {
     die("Error connecting to SQL Server".$e->getMessage());
-
 }
 
+$STH = $conn->prepare("select top 10 * from isfrontoffice.dbo.inspolicy where [id] = ?");
+$id = "F5FD2D34-5D49-4155-9FA2-D8D551CEA4FB";
 
-$id = "B37AE81F-B802-A27F-AD08ACA61E0F";
-$query = 'select top 10 * from isfrontoffice.dbo.inspolicy where id = '.$id;
-$stmt = $conn->query($query);
-$result = $stmt->fetch(PDO::FETCH_ASSOC);
-    print_r($result);
+$STH->bindParam(1, $id);
+$STH->execute();
+$STH->setFetchMode(PDO::FETCH_OBJ);
 
+$xmlPolicy = null; 
 
-if( sqlsrv_query( $conn, $query)) {
-    die( print_r( sqlsrv_errors(), true) );
+while($row = $STH->fetch()){
+	$xmlPolicy = simplexml_load_string($row->policy) or die("Error: Cannot create object");
 }
 
-
-//Instructions.value("(/Policy/PolicyInfo/Id)[1]", "varchar(50)")
-// where id = 'B37AE81F-B802-4D25-A27F-AD08ACA61E0F'
-
-var_dump($stmt);
+//print_r($xmlPolicy);
 
 echo <<<_END
 <html>
@@ -34,17 +31,17 @@ echo <<<_END
 </head>
 <style>
    body { 
-    margin: 25; /* Убираем отступы */
+    margin: 25; 
    }
    .parent {
-    margin: 20%; /* Отступы вокруг элемента */
-    background: #fd0; /* Цвет фона */
-    padding: 10px; /* Поля вокруг текста */
+    margin: 20%; 
+    background: #fd0; 
+    padding: 10px;
    } 
    .child {
-    border: 3px solid #666; /* Параметры рамки */
-    padding: 10px; /* Поля вокруг текста */
-    margin: 10px; /* Отступы вокруг */
+    border: 3px solid #666; 
+    padding: 10px; 
+    margin: 10px; 
    }
   </style>
 <body>
