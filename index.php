@@ -12,7 +12,7 @@ try {
 $namespace = "http://tempuri.org/policy.xsd"; 
 $id = "A302B645-9503-4511-9605-0317F21133CB";
 
-$STH = $conn->prepare("select top 10 * from isfrontoffice.dbo.inspolicy where [id] = ?");
+$STH = $conn->prepare("select policy from isfrontoffice.dbo.inspolicy where [id] = ?");
 $STH->bindParam(1, $id); //bind parameters with PDO Object
 $STH->execute();
 $STH->setFetchMode(PDO::FETCH_OBJ); //Setup mode to get object
@@ -25,13 +25,18 @@ while($row = $STH->fetch()){
 //print_r($xmlPolicy);
 
 $STH = $conn->prepare(
-"select top 10 [policy].value('declare default element namespace ?; 
-('/Policy/PolicyInfo/ID)[1]', 'varchar(40)') from isfrontoffice.dbo.inspolicy where [id] = ?");
+"select top 10 [policy].value('declare default element namespace \"?\"; 
+(/Policy/PolicyInfo/ID)[1]', 'varchar(40)') from isfrontoffice.dbo.inspolicy where [id] = ?");
 
-$STH->bindParam(1, $namespace);
-$STH->bindParam(2, $id);
+$STH->bindParam(2, $namespace);
+$STH->bindParam(1, $id);
+
 $STH->execute();
 $STH->setFetchMode(PDO::FETCH_OBJ); 
+
+$a = get_object_vars($STH);
+
+echo $a[0];
 
 $conn = null;
 
